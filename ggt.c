@@ -1,12 +1,12 @@
 #include<stdio.h>
 
 int berechne_ggT(int n, int m) {
-  if (n == m) {
-      return 1;
+  if (n < m) {
+      return berechne_ggT(n, m-n);
   } else if (n > m) {
-      return berechne_ggT(n % m, m);
-  } else {
-      return berechne_ggT(n, m % n);
+      return berechne_ggT(n-m, m);
+  } else if (n == m) {
+      return n;
     }
 }
 
