@@ -3,7 +3,7 @@
 int berechne_ggT(int n, int m) {
   if (n == m) {
       return 1;
-  } if else (n > m) {
+  } else if (n > m) {
       return ggT(n-m, m);
   } else {
       return ggT(n, m-n)
