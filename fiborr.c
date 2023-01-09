@@ -18,7 +18,7 @@ int main() {
     printf("Geben sie n ein: \n");
     scanf("%d", &n);
   
-    for(i = n;i>=0;i--) {
+    for(i = n;i>0;i--) {
     printf("%d ", fib(i));
     }
   
