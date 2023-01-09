@@ -21,6 +21,7 @@ int fib(int n){
 int main() {
   
     int n;
+    int i;
   
     printf("Geben sie n ein: \n");
     scanf("%d", &n);
