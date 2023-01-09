@@ -30,6 +30,8 @@ int main() {
     printf("%d ", fib(i));
     }
   
+    printf("\n");
+  
     return 0;
   
 }
