@@ -4,9 +4,9 @@ int berechne_ggT(int n, int m) {
   if (n == m) {
       return 1;
   } else if (n > m) {
-      return ggT(n-m, m);
+      return berechne_ggT(n-m, m);
   } else {
-      return ggT(n, m-n)
+      return berechne_ggT(n, m-n)
     }
 }
 
